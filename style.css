@@ -1,0 +1,96 @@
+body{
+  background-color: #EDE7D9;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+nav{
+  background-color: #D5A021;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 100px;
+  height: 680px;
+  justify-content: space-around;
+}
+nav a {
+  padding: 10px;
+}
+article{
+  display: flex;
+  flex-direction:row;
+  background-color: #BF4E30;
+  margin-bottom: 10px;
+}
+figure{
+
+  display: flex;
+  flex-direction: row;
+}
+.lil-img{
+  width: 80px;
+  padding left: 35px;
+  padding-right: 35px;
+}
+.icon{
+  width: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 15px;
+  background-color:#D5A021;
+  align-items: center;
+}
+.back-img{
+padding: 70px;
+padding-left: 85px;
+width: 1000px;
+opacity: .65;
+}
+.big-img-box{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  z-index: -1;
+}
+button{
+  font-size: 100px;
+}
+section{
+  padding: 15px;
+}
+section h3{
+  display: flex;
+  justify-content: center;
+}
+.dragon{
+  height: 200px;
+  width: 200vh;
+}
+.dragonbox{
+  height: 100px;
+  padding-top: 70px;
+}
+header{
+  display: flex;
+  justify-content: space-around;
+}
+.theBigOne{
+  display: flex;
+  flex-direction: row;
+}
+.theLilOne{
+  display: flex;
+  flex-direction: column;
+}
